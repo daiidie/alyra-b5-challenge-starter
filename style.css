@@ -19,7 +19,8 @@ html {
   box-sizing: inherit;
 }
 
-body {
+body,
+.carousel {
   font-family: 'Montserrat', Arial, sans-serif;;
 }
 
@@ -45,7 +46,7 @@ nav a {
   padding: 4px 10px;
   color: var(--grey);
 }
-header a:hover
+header a:hover,
 nav a:hover, 
 nav .active {
   color: var(--dark);

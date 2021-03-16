@@ -19,14 +19,16 @@ html {
   box-sizing: inherit;
 }
 
-body,
-.carousel {
+body
+ {
   font-family: 'Montserrat', Arial, sans-serif;;
 }
 
 /* header */
 
-header h1 {
+header h1,
+.carousel,
+main {
   font-family: 'Libre Baskerville', Arial, sans-serif;
 }
 

@@ -18,10 +18,11 @@ html {
 
 
 hr {
-    margin: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 
-a, a:hover{
+a,
+a:hover{
   color :var(--dark);
   text-decoration: none;
 }
@@ -33,8 +34,6 @@ a, a:hover{
 body {
   font-family: var( --montserrat);
 }
-
-/* header */
 
 /* Navigation */
 
@@ -79,18 +78,6 @@ footer {
 
 }
 
-.cards-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.card {
-  margin-left: 20px;
-  margin-bottom: 20px;
-  width: 31% !important;
-  box-shadow: 5px 5px 5px rgb(214, 213, 213);
-}
-
 .card-person {
   width: 16%;
   object-fit: cover;
@@ -98,7 +85,7 @@ footer {
 }
 
 .card-body > .details > p {
-  color: grey;
+  color: var(--grey);
   text-transform: bold;
 }
 
@@ -106,7 +93,6 @@ footer {
   display:flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 /* css Carlos */
@@ -118,28 +104,23 @@ footer {
 
 /* -------- css Ricardo ---------- */
 
-main {
-  min-height: 20vh;
-  
-}
-
-aside {
-  min-height: 20vh;
- 
-}
 
 /* --- card ---- */
 
 .card-title {
-    font-family: var(--baskerville)
+  font-family: var(--baskerville)
+}
+
+.card-popularPost .card-text > p {
+ font-size: 0.8rem;
 }
 
 /* --- search aside ---- */
 
 .search-group .input-group-append .btn-outline-secondary{
-    border: 1px solid #ced4da;
-        border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+  border: 1px solid #ced4da;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 /* --- social aside ---- */

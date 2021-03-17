@@ -11,12 +11,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/f11e74ccac.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <header class="text-center p-4">
           <h1>
-            <a class="navbar-brand fs-1" href="/index.html">AlyraMag</a>
+            <a class="navbar-brand fs-1 font-baskerville" href="/index.html">AlyraMag</a>
           </h1>
     </header>
     <div class="container-full sticky-top">
@@ -29,7 +30,7 @@
         </div>
         <div class="collapse navbar-collapse justify-content-center bg-light" id="navbar-ul">
           <ul class="list-unstyled navbar-nav">
-            <li class="nav-item"><a class="nav-link active" href="/index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
             <li class="nav-item">
               <a class="nav-link" href="#">Travel</a>
             </li>
@@ -39,76 +40,303 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="/category.html">Food</a></li>
                 <li><a class="dropdown-item" href="/category.html">Travel</a></li>         
-                  <li><a class="dropdown-item" href="/category.html">Lidestyle</a></li>
+                  <li><a class="dropdown-item" href="/category.html">Lifestyle</a></li>
                   <li><a class="dropdown-item" href="/category.html">Business</a></li>
                   <li><a class="dropdown-item" href="/category.html">Adventure</a></li>
                 </ul>
             </li>
             <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
-          </ul> 
+          </ul>
         </div>
       </nav>
     </div>
-    <div class="carousel">
+    <!----------------------- CAROUSEL : Diego ------------>
+    <div class="container carousel">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="images/big_image_1.jpg" class="d-block w-100" alt="images/big_image_1.jpg">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="container-fluid bg-dark p-3 m-3">
-                <h5>Sports</h5>
-                <h2><strong> How to Find the Video Games of Your Youth </strong></h2>
+            <div class="carousel-caption bg-dark p-3 m-3">
+                <h6>Sports</h6>
+                <h2 class="font-baskerville"><strong> How to Find the Video Games of Your Youth </strong></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta
                   eaque ipsa laudantium!</p>
-                </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="/images/big_image_3.jpg" class="d-block w-100" alt="images/big_image_3.jpg">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="container-fluid bg-dark p-3 m-3">
-              <h5>Sports</h5>
-              <h2><strong> How to Find the Video Games of Your Youth </strong></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta
-                eaque ipsa laudantium!</p>
-              </div>
+            <div class="carousel-caption bg-dark p-3 m-3">
+                <h6>Sports</h6>
+                <h2 class="font-baskerville"><strong> How to Find the Video Games of Your Youth </strong></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta
+                  eaque ipsa laudantium!</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="images/img_3.jpg" class="d-block w-100" alt="images/img_3.jpg">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="container-fluid bg-dark p-3 m-3">
-                <h5>Sports</h5>
-                <h2><strong> How to Find the Video Games of Your Youth </strong></h2>
+            <div class="carousel-caption bg-dark p-3 m-3">
+                <h6>Sports</h6>
+                <h2 class="font-baskerville"><strong> How to Find the Video Games of Your Youth </strong></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta
                   eaque ipsa laudantium!</p>
-                </div>
             </div>
           </div>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    <main>
-
-
-
-    
-    </main>
-    <side>
-      
-    </side>
+    </div>
+    <!----------------------- CAROUSEL : Diego ------------>
+    <div class="container">
+      <div class="row">
+          <main class="col-lg-9 container-article">
+            <!----------------------- ARTICLE : Joé ------------>
+              <h2>
+                Latest Posts
+              </h2>
+              <div class="cards-container">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/img_1.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <div class="details">
+                      <img class="card-person" src="images/person_1.jpg">
+                      <p>March 15, 2020</p>
+                    </div>
+                    <h5 class="card-title">How to Find the Video Games of Your Youth</h5>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/img_2.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <div class="details">
+                      <img class="card-person" src="images/person_1.jpg">
+                      <p>March 15, 2020</p>
+                    </div>
+                    <h5 class="card-title">How to Find the Video Games of Your Youth</h5>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/img_5.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <div class="details">
+                      <img class="card-person" src="images/person_1.jpg">
+                      <p>March 15, 2020</p>
+                    </div>
+                    <h5 class="card-title">How to Find the Video Games of Your Youth</h5>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/img_3.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <div class="details">
+                      <img class="card-person" src="images/person_1.jpg">
+                      <p>March 15, 2020</p>
+                    </div>
+                    <h5 class="card-title">How to Find the Video Games of Your Youth</h5>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/img_7.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <div class="details">
+                      <img class="card-person" src="images/person_1.jpg">
+                      <p>March 15, 2020</p>
+                    </div>
+                    <h5 class="card-title">How to Find the Video Games of Your Youth</h5>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/img_8.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <div class="details">
+                      <img class="card-person" src="images/person_1.jpg">
+                      <p>March 15, 2020</p>
+                    </div>
+                    <h5 class="card-title">How to Find the Video Games of Your Youth</h5>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/img_9.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <div class="details">
+                      <img class="card-person" src="images/person_1.jpg">
+                      <p>March 15, 2020</p>
+                    </div>
+                    <h5 class="card-title">How to Find the Video Games of Your Youth</h5>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/img_10.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <div class="details">
+                      <img class="card-person" src="images/person_1.jpg">
+                      <p>March 15, 2020</p>
+                    </div>
+                    <h5 class="card-title">How to Find the Video Games of Your Youth</h5>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/img_11.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <div class="details">
+                      <img class="card-person" src="images/person_1.jpg">
+                      <p>March 15, 2020</p>
+                    </div>
+                    <h5 class="card-title">How to Find the Video Games of Your Youth</h5>
+                  </div>
+                </div>
+              
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/img_12.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <div class="details">
+                      <img class="card-person" src="images/person_1.jpg">
+                      <p>March 15, 2020</p>
+                    </div>
+                    <h5 class="card-title">How to Find the Video Games of Your Youth</h5>
+                  </div>
+                </div>
+              </div>
+            <!----------------------- ARTICLE : Joé ------------>
+          </main>
+          <aside class="col-lg-3">
+            <!-- search -->
+            <div class=" search-group input-group mb-4"> 
+              <div class="input-group-append"><button class="btn btn-outline-secondary btn-light">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+            <input type="text" placeholder="Search here..." class="form-control">
+            </div>
+            <!-- bio -->
+            <div class="card_bio text-center shadow p-3 ">
+                <img class="rounded-circle" src="/images/person_1.jpg"
+                  alt="woman" width="140" height="140">
+                <h5 class="card-title pt-4">David Craig</h5>
+                <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec tristique tortor, ut lobortis tellus. Proin
+                vestibulum, orci ac sagittis rhoncus, mi arcu facilisis arcu, ut placerat mi nunc vel nisi.</p>
+                <a href="#" class="btn btn-dark btn-sm">Read my bio</a>
+                <div class="social_section">
+                  <ul class="list-inline pt-4">
+                    <li class="list-inline-item"><a aria-label="Social networks Facebook" class="text-dark" href="#" target="_blank" title="facebook">
+                        <i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a aria-label="Social networksTwitter" class="text-dark" href="#" target="_blank" title="twitter">
+                        <i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a aria-label="Social networks Instagram" class="text-dark" href="#" target="_blank" title="instagram">
+                        <i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a aria-label="Social networks Youtube" class="text-dark" href="#" target="_blank" title="youtube">
+                        <i class="fab fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            <!-- Popular Post -->
+            <div class="card_popular shadow p-3 my-4">
+              <div class="row">
+                  <h5 class="card-title pb-2">Popular Posts</h5>
+                  <div class="col-5">
+                    <a href="/category.html">
+                      <img class="img-fluid" src="images/img_2.jpg" alt="Pot de fleur">
+                    </a>
+                  </div>
+                  <div class="col-7">
+                    <p class="text-start text-muted pb-0 m-auto">March 15, 2020</p>
+                    <p class="text-start fs-6 lh-sm font-baskerville"><a href="/category.html">How to Find the Video Games of Your Youth</a></p>
+                  </div>
+              </div>
+              <hr>
+              <div class="row">
+                  <h2 class="card-title pt-3 pb-2 fs-5">Popular Posts</h2>
+                <div class="col-5">
+                  <a href="/category.html">
+                    <img class="img-fluid" src="images/img_4.jpg" alt="Pot de fleur">
+                  </a>
+                </div>
+                <div class="col-7">
+                  <p class="text-start text-muted pb-0 m-auto">March 15, 2020</p>
+                  <p class="text-start fs-6 lh-sm font-baskerville"><a href="/category.html">How to Find the Video Games of Your
+                      Youth</a></p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <h5 class="card-title pb-2">Popular Posts</h5>
+                <div class="col-5">
+                  <a href="/category.html">
+                    <img class="img-fluid" src="images/img_12.jpg" alt="Pot de fleur">
+                  </a>
+                </div>
+                <div class="col-7">
+                  <p class="text-start text-muted pb-0 m-auto">March 15, 2020</p>
+                  <p class="text-start fs-6 lh-sm font-baskerville"><a href="/category.html">How to Find the Video Games of Your
+                      Youth</a></p>
+                </div>
+              </div>
+            </div>
+            <!-- Categories -->
+            <div class="shadow p-3 mb-4 bg-body rounded">
+              <h2 class="card-title pt-3 pb-2 fs-5">Categories</h2>
+              <div class="text-secondary">
+                <p class="float-start"><a href="/category.html">Food</a></p>
+                <p class="text-end">(12)</p>
+              </div>
+              <hr>
+              <div class="text-secondary">
+                <p class="float-start"><a href="/category.html">Travel</a></p>
+                <p class="text-end">(22)</p>
+              </div>
+              <hr>
+              <div class="text-secondary">
+                <p class="float-start"><a href="/category.html">Lifestyle</a></p>
+                <p class="text-end">(37)</p>
+              </div>
+              <hr>
+              <div class="text-secondary">
+                <p class="float-start"><a href="/category.html">Business</a></p>
+                <p class="text-end">(42)</p>
+              </div>
+              <hr>
+              <div class="text-secondary">
+                <p class="float-start"><a href="/category.html">Aventure</a></p>
+                <p class="text-end">(14)</p>
+              </div>
+            </div>
+            <!-- Tags -->
+            <div class="shadow p-3 mb-4 bg-body rounded">
+              <h2 class="card-title fs-5 pb-2">Tags</h2>
+              <button type="button" href="#" class="btn btn-secondary btn-sm m-1">Travel</button>
+              <button type="button" href="#" class="btn btn-secondary btn-sm m-1">Adventure</button>
+              <button type="button" href="#" class="btn btn-secondary btn-sm m-1">Food</button>
+              <button type="button" href="#" class="btn btn-secondary btn-sm m-1">Lifestyle</button>
+              <button type="button" href="#" class="btn btn-secondary btn-sm m-1">Business</button>
+              <button type="button" href="#" class="btn btn-secondary btn-sm m-1">Freelancing</button>
+              <button type="button" href="#" class="btn btn-secondary btn-sm m-1">Travel</button>
+              <button type="button" href="#" class="btn btn-secondary btn-sm m-1">Adventure</button>
+              <button type="button" href="#" class="btn btn-secondary btn-sm m-1">Food</button>
+              <button type="button" href="#" class="btn btn-secondary btn-sm m-1">Lifestyle</button>
+              <button type="button" href="#" class="btn btn-secondary btn-sm m-1">Business</button>
+              <button type="button" href="#" class="btn btn-secondary btn-sm m-1">Freelancing</button>
+            </div>
+          </aside>
+      </div>
+    </div>
     <footer class="p-4 text-white text-center fw-light">
       &copy; 2020 Made with <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill text-danger" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
@@ -120,21 +348,3 @@
       </body>
   </body>
 </html>
-<!-- carousel-->
-big_image_1.jpg
-<!---->
-big_image_3.jpg
-<!---->
-img_3.jpg
-<!---->
-Sports
-<!---->
-How to Find the Video Games of Your Youth
-<!---->
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta
-eaque ipsa laudantium!
-<!---->
-Categories : Food (12) Travel (22) Lifestyle (37) Business (42) Adventure (14)
-<!---->
-Tags : Travel Adventure Food Lifestyle Business Freelancing Travel Adventure
-Food Lifestyle Business Freelancing

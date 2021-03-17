@@ -1,12 +1,9 @@
-
-body {
-  font-family: 'Montserrat'
-}
-
 :root {
   --dark: #212121;
   --grey: #6c757d;
   --light: #f8f9fa;
+  --montserrat : 'Montserrat', Arial, sans-serif;
+  --baskerville: 'Libre Baskerville', Arial, sans-serif;
 }
 
 html {
@@ -19,23 +16,25 @@ html {
   box-sizing: inherit;
 }
 
-body
- {
-  font-family: 'Montserrat', Arial, sans-serif;;
+
+hr {
+    margin: 0.5rem 0;
+}
+
+a, a:hover{
+  color :var(--dark);
+  text-decoration: none;
+}
+
+.font-baskerville {
+ font-family: var(--baskerville)
+}
+
+body {
+  font-family: var( --montserrat);
 }
 
 /* header */
-
-header h1,
-.carousel,
-main {
-  font-family: 'Libre Baskerville', Arial, sans-serif;
-}
-
-header a {
-  color :var(--dark);
-}
-
 
 /* Navigation */
 
@@ -44,10 +43,10 @@ nav li {
 }
 
 nav a {
-  text-decoration: none;
   padding: 4px 10px;
   color: var(--grey);
 }
+
 header a:hover,
 nav a:hover, 
 nav .active {
@@ -62,4 +61,89 @@ nav .active {
 
 footer {
   background-color: #363b41;
+}
+
+/* main */
+
+
+/* css Diégo */
+
+.carousel .carousel-indicators {
+    bottom: 20px;
+}
+
+/* css Joé */
+
+.container-article {
+  
+
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 31% !important;
+  box-shadow: 5px 5px 5px rgb(214, 213, 213);
+}
+
+.card-person {
+  width: 16%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-body > .details > p {
+  color: grey;
+  text-transform: bold;
+}
+
+.card-body > .details {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+/* css Carlos */
+
+.container-contact {
+
+}
+
+
+/* -------- css Ricardo ---------- */
+
+main {
+  min-height: 20vh;
+  
+}
+
+aside {
+  min-height: 20vh;
+ 
+}
+
+/* --- card ---- */
+
+.card-title {
+    font-family: var(--baskerville)
+}
+
+/* --- search aside ---- */
+
+.search-group .input-group-append .btn-outline-secondary{
+    border: 1px solid #ced4da;
+        border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* --- social aside ---- */
+
+.social_section ul li {
+padding: 0 5px ;
 }
